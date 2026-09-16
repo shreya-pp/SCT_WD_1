@@ -1,0 +1,117 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #222;
+
+    z-index: 1000;
+
+    transition: all 0.3s ease;
+}
+
+/* Website logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Menu links */
+.menu a {
+    color: white;
+    text-decoration: none;
+
+    padding: 10px 15px;
+
+    border-radius: 5px;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.menu a:hover {
+    background: #3498db;
+    color: white;
+}
+
+/* Page sections */
+section {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px 20px;
+}
+
+/* Different section backgrounds */
+#home {
+    background: #3498db;
+    color: white;
+}
+
+#about {
+    background: #ecf0f1;
+    color: #222;
+}
+
+#services {
+    background: #9b59b6;
+    color: white;
+}
+
+#contact {
+    background: #2ecc71;
+    color: white;
+}
+
+/* Section headings */
+section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Section paragraphs */
+section p {
+    font-size: 20px;
+}
+nav.scrolled {
+    background: #111;
+    padding: 12px 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
