@@ -1,7 +1,5 @@
 # Interactive Navigation Menu
 
-## Internship Task 1
-
 This project is an interactive navigation menu developed using HTML, CSS, and JavaScript.
 
 ## Features
