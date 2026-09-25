@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">MyWebsite dark mode preview</title>
+  <desc id="desc">A dark website preview with a navigation bar and welcome message.</desc>
+  <rect width="1200" height="675" fill="#0b1220"/>
+  <circle cx="1010" cy="160" r="230" fill="#17394a" opacity=".7"/>
+  <rect x="0" y="0" width="1200" height="72" fill="#08101c"/>
+  <text x="70" y="46" fill="#f3f7f5" font-family="Arial, sans-serif" font-size="24" font-weight="700">MyWebsite<tspan fill="#64d6c5">.</tspan></text>
+  <text x="790" y="44" fill="#64d6c5" font-family="Arial, sans-serif" font-size="15">Home</text>
+  <text x="865" y="44" fill="#aebbc5" font-family="Arial, sans-serif" font-size="15">About</text>
+  <text x="935" y="44" fill="#aebbc5" font-family="Arial, sans-serif" font-size="15">Services</text>
+  <text x="1035" y="44" fill="#aebbc5" font-family="Arial, sans-serif" font-size="15">Contact</text>
+  <text x="90" y="220" fill="#ff987d" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">HELLO, WELCOME</text>
+  <text x="90" y="315" fill="#f3f7f5" font-family="Arial, sans-serif" font-size="82" font-weight="700">Welcome to</text>
+  <text x="90" y="395" fill="#64d6c5" font-family="Arial, sans-serif" font-size="82" font-weight="700">my website.</text>
+  <text x="90" y="460" fill="#b9c6cc" font-family="Arial, sans-serif" font-size="20">A simple space to explore ideas, services, and ways we can work together.</text>
+  <rect x="90" y="505" width="180" height="52" fill="#64d6c5"/>
+  <text x="110" y="538" fill="#08151c" font-family="Arial, sans-serif" font-size="15" font-weight="700">Explore the site  ↓</text>
+</svg>

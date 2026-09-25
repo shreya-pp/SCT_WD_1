@@ -5,67 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Interactive Navigation Menu</title>
+    <meta name="description" content="A simple dark-mode website with interactive navigation.">
+    <title>MyWebsite | Welcome</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation Menu -->
     <nav id="navbar">
-
-        <div class="logo">
-            MyWebsite
-        </div>
-
+        <a class="logo" href="#home">MyWebsite<span>.</span></a>
         <ul class="menu">
-
-            <li>
-                <a href="#home">Home</a>
-            </li>
-
-            <li>
-                <a href="#about">About</a>
-            </li>
-
-            <li>
-                <a href="#services">Services</a>
-            </li>
-
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-
     </nav>
 
-
-    <!-- Home Section -->
     <section id="home">
-        <h1>Home</h1>
-        <p>Welcome to my website.</p>
+        <div class="section-content">
+            <p class="eyebrow">Hello, welcome</p>
+            <h1>Welcome to<br><span>my website.</span></h1>
+            <p class="intro">A simple space to explore ideas, services, and ways we can work together.</p>
+            <a class="button" href="#about">Explore the site <span>↓</span></a>
+        </div>
     </section>
 
-
-    <!-- About Section -->
     <section id="about">
-        <h1>About</h1>
-        <p>This is the About section.</p>
+        <div class="section-content">
+            <p class="eyebrow">01 / About</p>
+            <h2>A little bit<br><span>about me.</span></h2>
+            <p>Thoughtful work, clear communication, and simple digital experiences made with care.</p>
+        </div>
     </section>
 
-
-    <!-- Services Section -->
     <section id="services">
-        <h1>Services</h1>
-        <p>These are the services we provide.</p>
+        <div class="section-content">
+            <p class="eyebrow">02 / Services</p>
+            <h2>Ideas into<br><span>something real.</span></h2>
+            <p>Design, development, and creative support for projects that deserve attention.</p>
+        </div>
     </section>
 
-
-    <!-- Contact Section -->
     <section id="contact">
-        <h1>Contact</h1>
-        <p>Get in touch with us.</p>
+        <div class="section-content">
+            <p class="eyebrow">03 / Contact</p>
+            <h2>Let’s start<br><span>a conversation.</span></h2>
+            <p>Have an idea or a question? I would love to hear from you.</p>
+            <a class="button" href="mailto:hello@example.com">Get in touch <span>↗</span></a>
+        </div>
     </section>
     <script src="script.js"></script>
 
